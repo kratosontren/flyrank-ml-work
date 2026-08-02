@@ -151,13 +151,15 @@ Grouped validation better estimates generalization because observations from the
 | Recall | 0.972 | 0.982 |
 | F1 Score | 0.685 | 0.500 |
 
+### Performance Comparison
+
+![Model Results](work/figures/model_results.png)
+
 ## Error Analysis
 
 Grouped validation produced lower overall performance than the random split, suggesting that random evaluation overestimates performance.
 
 The model achieved high recall but relatively lower precision, indicating that some pages are prioritized unnecessarily while most potentially relevant pages are identified.
-
----
 
 # 6. Interpretation
 
@@ -188,6 +190,10 @@ RC-04 — No Immediate Action
 ## Intended Use
 
 Recommendations are intended to assist SEO analysts during manual content review.
+
+### Recommendation Distribution
+
+![Recommendation Distribution](work/figures/recommendation_distribution.png)
 
 ## Confidence
 
